@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/holiday_tree"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/happy_holidays_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="36sp"
+        android:textColor="#ff0000"
+        android:layout_alignParentTop="true"
+        android:padding="18dp"
+        android:text="@string/holiday_greetings"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/holiday_year_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textColor="#ffffff"
+        android:padding="18dp"
+        android:text="@string/holiday_year_text" />
+</RelativeLayout>

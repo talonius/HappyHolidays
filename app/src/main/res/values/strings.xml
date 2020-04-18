@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Happy Holidays</string>
+    <string name="holiday_greetings">Happy Holidays!</string>
+    <string name="holiday_year_text">2019!</string>
+</resources>
